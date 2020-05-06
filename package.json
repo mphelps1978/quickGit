@@ -1,0 +1,24 @@
+{
+  "name": "quickgit",
+  "version": "0.0.1",
+  "description": "QuickGit is a resource for coding bootcamp instructors and staff. With QuickGit, you can add an object of your student's gitHub profiles and set a base directory. Then you just plug in the project name, and quickGit will pull all of your student's repositories at once. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mphelps1978/quickGit.git"
+  },
+  "author": "Michael Phelps - based off a concept created by Eralp K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mphelps1978/quickGit/issues"
+  },
+  "homepage": "https://github.com/mphelps1978/quickGit#readme",
+  "dependencies": {
+    "nodegit": "^0.26.5",
+    "prompt": "^1.0.0",
+    "rimraf": "^3.0.2"
+  }
+}
